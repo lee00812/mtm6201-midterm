@@ -127,6 +127,7 @@ article h2 {
   margin-bottom: 20px;
   cursor: pointer;
   border-radius: 50px;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .button:hover,
@@ -171,6 +172,13 @@ input, textarea {
 .form div {
     padding: 10px;
 }
+
+.thanks {
+    padding-bottom: 500px;
+    text-align: center;
+}
+
+
 
 @media screen and (min-width: 760px) {
     .container {

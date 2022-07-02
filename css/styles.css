@@ -106,8 +106,9 @@ article h2 {
     line-height: 1.5em;
 }
 
-.button {
-  background-color: #fffff;
+.button,
+.form button {
+  background-color: #ffffff;
   border: 1px solid #bab86c;
   color: #262626;
   padding: 10px 30px;
@@ -120,7 +121,8 @@ article h2 {
   border-radius: 50px;
 }
 
-.button:hover {
+.button:hover,
+.form button:hover {
     background-color: #BAB86C;
     color: #ffffff;
 }
@@ -135,4 +137,29 @@ footer {
 
 .member {
     padding-bottom: 40px;
+}
+
+.contact {
+    width: 80%;
+    padding: 10%;
+}
+
+.contact h1 {
+    font-size: 1.5rem;
+}
+
+.info label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+.info textarea {
+    height: 150px;;
+}
+
+.form div {
+    padding: 10px;
 }

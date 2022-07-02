@@ -1,0 +1,134 @@
+/* adds css reset code in the start of the file to reduce browser inconsistencies */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+header img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #BAB86C;
+    color: #ffffff;
+
+}
+
+ul li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+ul li a:link, 
+ul li a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul li:hover,
+ul li a:hover {
+    background-color: #D3D2A1;
+}
+
+main,
+article {
+    width: 80%;
+    padding: 10%;
+}
+
+main img,
+article img {
+    width: 100%;
+}
+
+main h1,
+article h2 {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.button {
+  background-color: #fffff;
+  border: 1px solid #bab86c;
+  color: #262626;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button:hover {
+    background-color: #BAB86C;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #BAB86C;
+    padding: 2rem;
+    font-size: 0.75rem;
+    line-height: 1.24rem;
+    color: #ffffff;
+}

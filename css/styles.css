@@ -49,6 +49,8 @@ table {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -162,4 +164,26 @@ input, textarea {
 
 .form div {
     padding: 10px;
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
 }

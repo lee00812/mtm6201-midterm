@@ -213,7 +213,7 @@ input, textarea {
 
 .cupcake {
     animation-name: jump;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
   }
   

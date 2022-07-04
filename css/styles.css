@@ -50,12 +50,10 @@ table {
 
 /* css reset code ends here */
 
+
 /* mobile view css starts here */
 /* container remains full-width for mobile devices */
-/* used display flex for the web structure to display each section from the top to bottom */
 .container {
-    display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
@@ -159,8 +157,8 @@ footer {
 }
 
 .contact {
-    width: 80%;
-    padding: 10%;
+    max-width: 100%;
+    padding: 20px;
 }
 
 .contact h1 {
@@ -269,11 +267,12 @@ input, textarea {
 
     .contact {
         display: grid;
-        grid-template-columns: 45% 10% 45%;
-        grid-template-rows: repeat(20%, 80%);
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20%, 80%;
+        gap: 40px;
         grid-template-areas:
-        "title title title"
-        "form . hours"
+        "title title"
+        "form hours"
     }
 
     .contact .contactus {

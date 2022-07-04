@@ -44,7 +44,14 @@
         </main>
         <article class="team">
             <div class="image">
-                <img src="img/intro_001.jpg" alt="Blessing Bakery">
+                <img 
+                srcset="img/intro_001-320_x_320.jpg 320w,
+                        img/intro_001-640_x_640.jpg 640w,
+                        img/intro_001-1280_x_1280.jpg 1280w"
+                sizes="(max-width: 320px) 320px,
+                       (max-width: 640px) 640px,
+                       (max-width: 1280px) 1280px"
+                src="img/intro_001.jpg" alt="Meet Our Team">
             </div>
             <div class="text">
                 <h2>About Blessing Bakery</h2>

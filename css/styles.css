@@ -205,6 +205,22 @@ input, textarea {
     text-align: center;
 }
 
+/* animation property is used as required by the assignment */
+/* added a cupcake image with a jumping animation to catch audience attention of the products */
+.cupcake {
+    max-width: 20px;
+}
+
+.cupcake {
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes jump {
+    50% { transform: translate(0, -20px); }
+  }
+
 
 /* mobile responsive css code */
 /* the top container remains full-width because it will look nicer with the full-width header and footer */

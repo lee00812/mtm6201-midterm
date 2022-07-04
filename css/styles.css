@@ -48,6 +48,11 @@ table {
 	border-spacing: 0;
 }
 
+/* css reset code ends here */
+
+/* mobile view css starts here */
+/* container remains full-width for mobile devices */
+/* used display flex for the web structure to display each section from the top to bottom */
 .container {
     display: flex;
     flex-direction: column;
@@ -198,11 +203,25 @@ input, textarea {
 }
 
 
-
+/* mobile responsive css code */
+/* the top container remains full-width because it will look nicer with the full-width header and footer */
+/* the second container will expand up to 1200px to keep all the content organized and easier to read  */
+/* logo size will reduce to 30 percent to maintain a nice looking and a good proportion of the screen size */
 @media screen and (min-width: 760px) {
     .container {
+        max-width: 100%;
+    }
+    
+    .main-container {
         max-width: 1200px;
         margin: auto;
+    }
+
+    header img {
+        max-width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .nav {

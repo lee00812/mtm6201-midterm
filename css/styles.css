@@ -165,12 +165,31 @@ input, textarea {
     width: 100%;
 }
 
+.info input {
+    height: 40px;
+}
 .info textarea {
     height: 150px;;
 }
 
 .form div {
-    padding: 10px;
+    width: 100%;
+}
+
+.info,
+.hours {
+    padding-top: 20px;
+}
+
+.hours table, th, td {
+    border: 1px solid #262626;
+    height: 40px;
+    font-size: 0.8rem;
+}
+
+.hours table {
+    width: 100%;
+    
 }
 
 .thanks {
@@ -222,6 +241,27 @@ input, textarea {
     .story {
         display: grid;
         grid-template-columns: 50% 50%;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 45% 10% 45%;
+        grid-template-rows: repeat(20%, 80%);
+        grid-template-areas:
+        "title title title"
+        "form . hours"
+    }
+
+    .contact .contactus {
+        grid-area: title;
+    }
+
+    .contact .form {
+        grid-area: form;
+    }
+
+    .contact .hours {
+        grid-area: hours;
     }
 
 

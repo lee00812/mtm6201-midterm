@@ -26,7 +26,14 @@
         </nav>
         <main class="main">
             <div class="image">
-                <img src="img/hp-img-001.jpg" alt="Blessing Bakery">
+                <img 
+                srcset="img/hp-img-001-320_x_212.jpg 320w,
+                        img/hp-img-001-640_x_425.jpg 640w,
+                        img/hp-img-001-1280_x_851.jpg 1280w"
+                sizes="(max-width: 320px) 320px,
+                       (max-width: 640px) 640px,
+                       (max-width: 1280px) 1280px"
+                src="img/hp-img-001.jpg" alt="Blessing Bakery">
             </div>
             <div class="text">
                 <h1>New Korean Fresh Cream Cake</h1>

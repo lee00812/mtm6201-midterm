@@ -267,9 +267,13 @@ input, textarea {
 
     .contact {
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 20%, 80%;
-        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 6fr;
+        column-gap: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         grid-template-areas:
         "title title"
         "form hours"
@@ -285,6 +289,13 @@ input, textarea {
 
     .contact .hours {
         grid-area: hours;
+    }
+
+    /* transform the scale of the brand logo as require by the assignment */
+    /* brand logo size will be enlarge by 10 percent when hover */
+    /* this animation is tend to drive attention to the brand logo in a fun way */
+    .header img:hover {
+    transform: scale(1.1);
     }
 
 

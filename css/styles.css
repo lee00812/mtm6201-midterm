@@ -64,12 +64,16 @@ header img {
     margin-right: auto;
 }
 
+/* matches the typography with my high fedility design */
+/* google font is used */
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
 }
 
+/* adds styles for the natvigation */
+/* adds styles when hover for easier reading */ 
 ul {
     list-style-type: none;
     background-color: #BAB86C;
@@ -117,6 +121,9 @@ article h2 {
     line-height: 1.5em;
 }
 
+/* uses round buttons to match my high fedility design */
+/* round button would give a nice and warm feeling
+from the design point of view */
 .button,
 .form button {
   background-color: #ffffff;
@@ -169,6 +176,7 @@ footer {
     display: block;
 }
 
+/* form input area has been adjusted for easier to use */
 input, textarea {
     width: 100%;
 }
